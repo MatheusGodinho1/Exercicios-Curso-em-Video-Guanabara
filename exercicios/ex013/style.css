@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body{
+    background-color: grey;
+    font-size: 15px;
+    font-family: Segeo UI;
+}
+
+h1{
+    color: aqua;
+}
+p{
+    color: bisque;
+}
+
+a{
+    color: blueviolet;
+}

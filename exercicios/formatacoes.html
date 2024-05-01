@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações em HTML</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Todos os tipos de formatações semanticas em HTML</h1>
+    <h2>Negrito</h2>
+    <p>Para adicionarmos um texto em <strong>destaque</strong>, ou <strong>negrito</strong> usamos a tag <strong>&lt;strong&gt;</strong></p>
+    <h2>Itálico</h2>
+    <p>Para darmos <em>ênfase</em> em um texto usamos a tag <em>&lt;em&gt;</em> </p>
+    <h2>Marcado</h2>
+    <p>Para adicionarmos uma <mark> marcação </mark> em um texto usamos a tag <mark>&lt;mark&gt;</mark></p>
+    <H2>Deletado/Taxado</H2>
+    <p>Para mostrarmos que um texto foi delegado ou que<del> não deve ser levado em consideração pelo leitor</del> usamos a tag <del>&lt;del&gt;</del></p>
+    <h2>Inserido</h2>
+    <p>para mostrarmos que um texto foi <ins>adicionado recentemente</ins> usamos a tag <ins>&lt;ins&gt;</ins> </p>
+    <h2>Sobre Escrito</h2>
+    <p>Usamos a tag &lt;sup&gt; quando precisamos deixar um texto <sup>SOBRE ESCRITO</sup> para escrever por exemplo m<sup>2</sup> ou x<sup>2</sup></p>
+    <h2>Sub Escrito</h2>
+    <p>Usamos a tag &lt;sub&gt; para deixar um texto <sub>SUB ESCRITO</sub>, isso ajuda a escrever palavras como h<sub>2</sub>O</p>
+    <h2>Código fonte</h2>
+    <p> é altamente recomendado que para leitura de códigos usarmos esse tipo de fonte: <pre> EXEMPLO DE FONTE MONO ESPAÇADA</pre></p>
+    <p><pre>
+        <code>
+            print ("Bem vindo a Calculadora de IMC")
+                pergunta_nome = input("Qual é o seu nome? " )
+                nome = ("Olá" , pergunta_nome)
+                idade = input (f"Qual sua idade? ")
+                peso = float(input("Qual seu peso (em KG)? "))
+                altura = float(input("Qual sua Altura (em metros e usando ponto)? "))
+            
+                print("Vamos calcular seu IMC")
+            
+                imc = (peso / (altura * altura))
+            
+                print(pergunta_nome , (f"seu IMC é: {imc:.2f}"))
+        </code>
+        </pre>
+    </p></p>
+    <h2>Citações</h2>
+    <p><q>Nunca foi sensata a decisão de causar desespero nos homens, pois quem não espera o bem não teme o mal.</q></p>
+    <h2>Abreviações</h2>
+    <p><abbr title="Hyper Text Markup Language">HTML</abbr></p>
+
+</body>
+</html>
