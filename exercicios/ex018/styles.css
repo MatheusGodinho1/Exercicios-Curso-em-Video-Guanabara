@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right , #D3B99F, #C17767) ;
+    height: 100%;
+}
+
+p{
+    background-color: #4A2040;
+    color: #9AADBF;
+}
+
+h1{
+    font-family: "Didot", "Hoefler Text", "Goudy Old Style", serif;
+    color: #4A2040;
+    font-style: italic;
+}
+
