@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@font-face {
+    font-family: romanus ;
+    src: url(fontes/ROMANUS.otf);
+}
+h1{
+        font: normal bold 2em 'Arial', 'Helvetica', 'sans-serif';
+    color: #A0DDFF;
+}
+h2{
+    color: #50F40F;
+}
+p{
+    text-indent: 2em;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: white;
+    color: black
+}
+body{
+
+    background-image: linear-gradient(to right, #624CAB, #758ECD);
+}
